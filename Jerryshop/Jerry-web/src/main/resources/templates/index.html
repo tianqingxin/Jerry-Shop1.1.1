@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- 加入th空间命名-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<title>微信商域</title>
+<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+<link rel="stylesheet" th:href="@{/css/index.css}" />
+</head>
+
+<body style="text-align: center; width: 100%; margin: 0 auto;">
+	<br />
+	<h1>
+		<span class="label label-info">码家学院商城主页&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+			href="logout">注销</a></span>
+	</h1>
+	<div class="panel panel-default"
+		style="width: 80%; margin: 0 auto; text-align: center;">
+		<div th:each="cat : ${catlist}">
+			<div class="panel-body"
+				style="border: 2px solid grey; text-align: center;">
+				<a style="text-align: center; margin: 0 auto;"
+					th:href="@{'cat?catId='+${cat.id}}"
+					th:text="${cat.catName}"></a>
+			</div>
+			<br />
+		</div>
+	</div>
+	<hr />
+
+	<div class="container">
+		<div class="row">
+			<div style="width: 100%; height: auto;" th:each="item : ${goodlist}">
+				<a th:href="@{'goodDesc?goodId='+${item.id}}">
+					<div class="speical speical-default speical-radius">
+						<div class="speical-content">
+							<h3 class="text-special-default" th:text="${item.name}"></h3>
+							<p>
+								<img style="width: 100%; height: auto;"
+									class="img-responsive img-rounded" th:src="${item.coverLink}"
+									alt="MI" />
+							</p>
+							<div th:utext="${item.description}"></div>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" th:src="@{/js/jquery-3.1.1.min.js}"></script>
+	<script type="text/javascript" th:src="@{/js/bootstrap.min.js}"></script>
+</body>
+
+</html>

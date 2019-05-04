@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- 加入th空间命名-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<title>我的购物车</title>
+<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body style="text-align: center; width: 100%; margin: 0 auto;">
+	<br />
+	<h1>
+		<span class="label label-info">我的购物车</span>
+	</h1>
+	<div style="width: 80%; margin: 0 auto;">
+		<div class="table-responsive m-t">
+			<table class="table invoice-table">
+				<thead>
+					<tr>
+						<th>清单</th>
+						<th>总价</th>
+						<th>付款</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="item : ${goodlist}">
+						<td style="width: 60%;">
+							<div>
+								<strong th:text="${item.name}"></strong>
+							</div>
+						</td>
+						<td style="width: 20%; color: red;" th:text="'￥'+${item.nowPrice}"></td>
+						<td style="width: 20%;"><a
+							th:href="@{'goPay?goodId='+${item.id}}" class="btn btn-primary"><i
+								class="fa fa-dollar"></i>去支付</a></td>
+					</tr>
+
+				</tbody>
+			</table>
+		</div>
+		<br />
+		<div class="well m-t">
+			<strong>注意：</strong> 请在30日内完成付款，否则订单会自动取消。
+		</div>
+	</div>
+	<script type="text/javascript" th:src="@{/js/jquery-3.1.1.min.js}"></script>
+	<script type="text/javascript" th:src="@{/js/bootstrap.min.js}"></script>
+</body>
+</html>

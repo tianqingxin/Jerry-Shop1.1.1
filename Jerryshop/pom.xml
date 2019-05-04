@@ -17,6 +17,7 @@
         <module>Jerry-order</module>
         <module>Jerry-goods</module>
         <module>Jerry-pay</module>
+        <module>Jerry-web</module>
     </modules>
 
     <parent>

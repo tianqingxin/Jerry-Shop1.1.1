@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- 加入th空间命名-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>注册</title>
+		<link rel="stylesheet"  th:href="@{/css/bootstrap.min.css}" />
+	</head>
+
+	<body style="text-align: center;width: 100%;margin: 0 auto;">
+		<br />
+		<h1><span class="label label-info">注册</span></h1>
+		<div style="padding: 100px 100px 10px;">
+			<form method="post" action="registaction" class="bs-example bs-example-form" role="form">
+				<input name="source" type="hidden" th:value="${source}" />
+				<div class="input-group">
+					<input style="height: 160px;font-size: 84px;" name="userName" type="text" class="form-control" placeholder="用户名称" />
+				</div>
+				<br />
+				<br />
+				<div class="input-group">
+					<input style="height: 160px;font-size: 84px;" name="email" type="email" class="form-control" placeholder="邮箱" />
+				</div>
+
+				<br />
+				<br />
+				<div class="input-group">
+					<input style="height: 160px;font-size: 84px;" name="password" type="password" class="form-control" placeholder="密码" />
+				</div>
+				<br />
+				<br />
+				<div>
+					<label for="sex1" stype="display:inline;">男</label>
+					<input style="..." name="sex" id="sex1" type="radio" class="form-control" />
+					&nbsp&nbsp&nbsp&nbsp;
+					<label for="sex2" stype="display:inline;">女</label>
+					<input style="..." name="sex" id="sex2" type="radio" class="form-control" />
+				</div>
+
+				<input type="submit" class="btn btn-primary" value="注册" style="width: 100%;height: 140px;font-size: 84px;" />
+			</form>
+			
+		</div>
+		<script type="text/javascript" th:src="@{/js/jquery-3.1.1.min.js}" ></script>
+		<script type="text/javascript" th:src="@{/js/bootstrap.min.js}"></script>
+	</body>
+</html>
