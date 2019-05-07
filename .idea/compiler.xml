@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Jerry-order" />
+        <module name="Jerry-eurka" />
+        <module name="Jerry-common" />
+        <module name="Jerry-web" />
+        <module name="Jerry-goods-api" />
+        <module name="Jerry-order-api" />
+        <module name="Jerry-member-api" />
+        <module name="Jerry-member" />
+        <module name="Jerry-message" />
+        <module name="Jerry-pay" />
+        <module name="Jerry-message-api" />
+        <module name="Jerry-pay-api" />
+        <module name="Jerry-goods" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Jerry-api" target="1.8" />
+      <module name="Jerry-common" target="1.8" />
+      <module name="Jerry-eurka" target="1.8" />
+      <module name="Jerry-goods" target="1.8" />
+      <module name="Jerry-goods-api" target="1.8" />
+      <module name="Jerry-member" target="1.8" />
+      <module name="Jerry-member-api" target="1.8" />
+      <module name="Jerry-message" target="1.8" />
+      <module name="Jerry-message-api" target="1.8" />
+      <module name="Jerry-order" target="1.8" />
+      <module name="Jerry-order-api" target="1.8" />
+      <module name="Jerry-pay" target="1.8" />
+      <module name="Jerry-pay-api" target="1.8" />
+      <module name="Jerry-shop" target="1.8" />
+      <module name="Jerry-web" target="1.8" />
+      <module name="Jerry-webs" target="1.8" />
+      <module name="Jerryweb" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

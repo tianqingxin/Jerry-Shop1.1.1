@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Jerry-Shop1.1.1.iml" filepath="$PROJECT_DIR$/.idea/Jerry-Shop1.1.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-api.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-common/Jerry-common.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-common/Jerry-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-eurka/Jerry-eurka.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-eurka/Jerry-eurka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-goods/Jerry-goods.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-goods/Jerry-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-goods-api/Jerry-goods-api.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-goods-api/Jerry-goods-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-member/Jerry-member.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-member/Jerry-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-member-api/Jerry-member-api.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-member-api/Jerry-member-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-message/Jerry-message.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-message/Jerry-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-message-api/Jerry-message-api.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-message-api/Jerry-message-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-order/Jerry-order.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-order/Jerry-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-order-api/Jerry-order-api.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-order-api/Jerry-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-pay/Jerry-pay.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-pay/Jerry-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-pay-api/Jerry-pay-api.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-pay-api/Jerry-pay-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-shop.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerryshop/Jerry-web/Jerry-web.iml" filepath="$PROJECT_DIR$/Jerryshop/Jerry-web/Jerry-web.iml" />
+    </modules>
+  </component>
+</project>

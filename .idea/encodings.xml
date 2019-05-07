@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Jerry-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-goods-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-member-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-message-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-order-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-pay-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-api/Jerry-wxin-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-eurka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jerryshop/Jerry-webs" charset="UTF-8" />
+  </component>
+</project>

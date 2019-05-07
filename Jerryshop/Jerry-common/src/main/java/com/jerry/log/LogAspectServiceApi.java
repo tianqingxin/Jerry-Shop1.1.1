@@ -25,7 +25,7 @@ public class LogAspectServiceApi {
     private static final Logger log = LoggerFactory.getLogger(LogAspectServiceApi.class);
 //    protected Logger log = LoggerFactory.getLogger(this.getClass());
     // 申明一个切点 里面是 execution表达式
-    @Pointcut("execution(public * com.jerry.*.*.*(..))")
+    @Pointcut("execution(public * com.jerry.controller.*.*(..))")
     private void controllerAspect() {
     }
 

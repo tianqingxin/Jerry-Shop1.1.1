@@ -22,4 +22,4 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://127.0.0.1:3306/shop_web
     username: root
-    password: admin
+    password: root
